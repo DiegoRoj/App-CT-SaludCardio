@@ -1,0 +1,195 @@
+ion-grid{
+    height: 100%;
+    padding-bottom: 0;;
+}
+
+ion-row.contentLogoCliente{
+    background-image: url('/assets/images/imgbottomHome.svg') !important;
+    background-position: center bottom;
+    background-repeat: no-repeat !important;
+    background-size: auto;
+
+    height: 50% !important;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+ion-row.contentLogoCliente ion-col img{
+    width: 100%;
+    height: auto;
+    max-width: 95px;
+    margin: 0 auto;
+    margin-left: 25%;
+}
+
+ion-row.contentBtnMenu{
+    height: 25% !important;
+}
+
+ion-col.btnMenuPrincipal{
+    height: 100%;
+    text-align: center;
+    width: 25%;
+}
+
+ion-col.btnMenuPrincipal img{
+    height: 100%;
+    max-height: 140px;
+    width: auto !important;
+    margin-bottom: 0;
+}
+
+ion-col.btnMenuPrincipal p.seccionNombre{
+    font-family: 'Biko';
+    color: #002891;
+    font-size: 1rem;
+    // margin-bottom: 0;
+    text-align: center;
+
+    margin: 0 0 7px 0;
+}
+
+// Mobile Portrait
+@media (max-width: 767px) and (min-width: 300px) {
+    ion-row.contentLogoCliente{
+        height: 40% !important;
+    }
+    
+    ion-row.contentBtnMenu{
+        height: 30% !important;
+    }
+
+    ion-col.btnMenuPrincipal p.seccionNombre{
+        font-family: 'Biko';
+        font-size: 0.6rem;
+        margin: -1.5rem 0 0.5rem 0;
+
+    }
+}
+
+
+// iPhone 5/SE Landscape
+@media (max-width: 568px) and (min-width: 560px){
+    ion-row.contentLogoCliente{
+        height: 30% !important;
+    }
+    
+    ion-row.contentBtnMenu{
+        height: 35% !important;
+    }
+
+    ion-col.btnMenuPrincipal img{
+        height: 100%;
+        max-height: 65px;
+    }
+
+    ion-col.btnMenuPrincipal p.seccionNombre{
+        font-family: 'Biko';
+        font-size: 10px;
+        margin-bottom: 0.8rem;
+        margin-top: 0.1rem;
+    }
+}
+
+
+
+// iPhone 6/7/8 Landscape
+@media (max-width: 667px) and (min-width: 569px){
+
+    ion-row.contentLogoCliente{
+        height: 30% !important;
+    }
+    
+    ion-row.contentBtnMenu{
+        height: 35% !important;
+    }
+
+    ion-col.btnMenuPrincipal img{
+        height: 100%;
+        max-height: 65px;
+    }
+
+    ion-col.btnMenuPrincipal p.seccionNombre{
+        font-family: 'Biko';
+        font-size: 10px;
+        margin-bottom: 0.8rem;
+        margin-top: 0.1rem;
+    }
+}
+
+
+
+// iPhone 6/7/8 Plus Landscape
+@media (max-width: 736px) and (min-width: 415px){
+
+    ion-row.contentLogoCliente{
+        height: 30% !important;
+    }
+    
+    ion-row.contentBtnMenu{
+        height: 35% !important;
+    }
+
+
+    ion-col.btnMenuPrincipal img{
+        height: 100%;
+        max-height: 65px;
+    }
+
+    ion-col.btnMenuPrincipal p.seccionNombre{
+        font-family: 'Biko';
+        font-size: 10px;
+        margin-bottom: 0.8rem;
+        margin-top: 0.1rem;
+    }
+}
+
+
+
+// iPhone X/XS Landscape
+@media (max-width: 890px) and (min-width: 769px){
+    ion-row.contentLogoCliente{
+        height: 40% !important;
+    }
+    
+    ion-row.contentBtnMenu{
+        height: 30% !important;
+    }
+
+    ion-col.btnMenuPrincipal img{
+        height: 100%;
+        max-height: 65px;
+    }
+
+    ion-col.btnMenuPrincipal p.seccionNombre{
+        font-family: 'Biko';
+        font-size: 10px;
+        margin-bottom: 0.8rem;
+        margin-top: 0.1rem;
+    }
+}
+
+
+// iPhone X/XS Max Landscape
+@media (max-width: 991px) and (min-width: 891px){
+
+    ion-row.contentLogoCliente{
+        height: 40% !important;
+    }
+    
+    ion-row.contentBtnMenu{
+        height: 30% !important;
+    }
+
+    ion-col.btnMenuPrincipal img{
+        height: 100%;
+        max-height: 65px;
+    }
+
+    ion-col.btnMenuPrincipal p.seccionNombre{
+        font-family: 'Biko';
+        font-size: 10px;
+        margin-bottom: 0.8rem;
+        margin-top: 0.1rem;
+    }
+}

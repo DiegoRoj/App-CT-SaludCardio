@@ -1,0 +1,57 @@
+<app-header></app-header>
+<app-navigation-header titulo="Dislipidemia"></app-navigation-header>
+
+<ion-content class="ion-padding">
+    <div>
+
+        <ngb-accordion [closeOthers]="true" activeIds="custom-panel-1">
+            <ngb-panel [disabled]="disabled" type="primary" class="panel-acordion" >
+            <ng-template ngbPanelHeader  color="secondary">
+                <div class="d-flex align-items-center justify-content-between">
+                <button ngbPanelToggle class="btn container-fluid text-left pl-0 btnRubro" >
+                    ¿Qué es?</button>
+                    <ion-icon class="acordionIcon" name="add" slot="icon-only"></ion-icon>
+                </div>
+            </ng-template>
+            <ng-template ngbPanelContent>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eveniet tenetur excepturi quo delectus expedita tempore recusandae aliquam nihil ex, temporibus aperiam doloribus cum sunt iusto nobis nemo suscipit animi!
+            </ng-template>
+            </ngb-panel>
+            <ngb-panel [disabled]="disabled" type="primary" class="panel-acordion">
+            <ng-template ngbPanelHeader  color="secondary">
+                <div class="d-flex align-items-center justify-content-between">
+                <button ngbPanelToggle class="btn container-fluid text-left pl-0 btnRubro" >
+                        Fisiopatología</button>
+                    <ion-icon class="acordionIcon" name="add" slot="icon-only"></ion-icon>
+                
+                </div>
+            </ng-template>
+            <ng-template ngbPanelContent>
+                Non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                labore sustainable VHS.
+            </ng-template>
+            </ngb-panel>
+            <ngb-panel [disabled]="disabled" type="primary" class="panel-acordion">
+            <ng-template ngbPanelHeader  color="secondary">
+                <div class="d-flex align-items-center justify-content-between">
+                <button ngbPanelToggle class="btn container-fluid text-left pl-0 btnRubro" >
+                        Epidemiología</button>
+                    <ion-icon class="acordionIcon" name="add" slot="icon-only"></ion-icon>
+                
+                </div>
+            </ng-template>
+            <ng-template ngbPanelContent>
+                Single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                labore sustainable VHS.
+            </ng-template>
+            </ngb-panel>
+        </ngb-accordion>
+
+        
+    </div>
+</ion-content>

@@ -1,0 +1,52 @@
+ion-toolbar{
+    display: flex;
+    align-items: center;
+    max-height: 44px;
+}
+
+.sc-ion-buttons-md-s .button-has-icon-only.button-clear{
+    width: auto;
+    --padding-start: 5px !important;
+    --padding-end: 5px !important;
+}
+
+.sc-ion-buttons-ios-h.sc-ion-buttons-ios-s .button-clear{
+    width: auto;
+    --padding-start: 5px !important;
+    --padding-end: 5px !important;
+}
+
+.ios img.logoPlmHead{
+    max-width: 160px;
+    padding-top: 0px;
+    vertical-align: middle;
+}
+
+.md img.logoPlmHead{
+    max-width: 160px;
+    padding-top: 0px;
+    vertical-align: middle;
+}
+
+.ios img.logoPatrocinador{
+    max-width: 80px;
+    float: right;
+    padding-top: 5px;
+}
+
+.md img.logoPatrocinador{
+    max-width: 80px;
+    float: right;
+    margin-top: 5px;
+    padding-top: 0;
+}
+
+@media (max-width: 340px) and (min-width: 320px){
+    img.logoPlmHead{
+        max-width: 140px !important;
+    }
+
+    img.logoPatrocinador{
+        max-width: 70px !important;
+    }
+}

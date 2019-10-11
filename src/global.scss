@@ -1,0 +1,115 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+@import "~bootstrap/dist/css/bootstrap.css" ;
+
+
+p{
+    color: #5b5b5b;
+    font-family: 'Biko';    
+    font-size: 0.8rem;
+}
+
+h1{
+    font-family: 'Biko';    
+    font-size: 1rem !important;
+    color: #5b5b5b;
+}
+h2{
+    font-size: 0.8rem !important;
+    color: #5b5b5b;
+}
+em{
+    color: #5b5b5b;
+}
+
+.md .tituloSeccion{
+    text-align: left;
+    margin-left: -1rem;
+    font-family: 'Biko';
+    font-weight: normal;
+    color: #002891;
+    font-size: 1rem;
+}
+.ios .tituloSeccion{
+    text-align: left;
+    margin-left: 1rem !important;
+    font-family: 'Biko';
+    font-weight: normal;
+    color: #002891;
+    font-size: 1rem;
+    padding-inline-start: 1rem;
+}
+
+
+// Cambio a clases Libreria Boostrap
+.bg-primary {
+    background-color: #2A85A6 !important;
+}
+
+.card-body {
+    color: #5b5b5b;
+}
+
+button.btnRubro{
+    color: #fff;
+    white-space: normal;
+}
+
+
+ion-icon.acordionIcon{
+    color: #fff;
+}
+
+// STYLE IPPA
+
+ion-img.imgLogoProductShot{
+    width: 75%;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 0 1rem 0;
+    padding-top: 1rem;
+}
+
+h1.nombreProducto{
+    font-size: 1rem;
+    color: #002891;
+    text-align: center
+}
+
+p.formaFarma{
+    font-size: 0.75rem;
+    color: #5b5b5b;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.titSustancia{
+    font-size: 1rem;
+    color: #002891;
+    text-align: center;
+}
