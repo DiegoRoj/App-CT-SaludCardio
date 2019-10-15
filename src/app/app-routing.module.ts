@@ -37,6 +37,8 @@ const routes: Routes = [
   { path: 'sugerencias', loadChildren: './secciones/configuracion/sugerencias/sugerencias.module#SugerenciasPageModule' },
   { path: 'registro', loadChildren: './secciones/registro/registro/registro.module#RegistroPageModule' },
   { path: 'ippa', loadChildren: './secciones/productos-patrocinadores/ippa/ippa.module#IppaPageModule' },
+  { path: 'detalle-farmacia', loadChildren: './secciones/farmacias/detalle-farmacia/detalle-farmacia.module#DetalleFarmaciaPageModule' },
+  { path: 'popover', loadChildren: './secciones/popover/popover.module#PopoverPageModule' },
 ];
 
 @NgModule({

@@ -1,9 +1,113 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>solicitud-visita</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header></app-header>
+<app-navigation-header titulo="Solicitud de visita médica"></app-navigation-header>
 
-<ion-content>
+<ion-content class="ion-padding">
+
+
+    <p class="nota">Los campos marcados con <ion-text color="danger">*</ion-text> son obligatorios</p>
+    
+    <ion-list class="bckgrList">
+      <ion-item class="listaResultadosBusqueda" color="light">
+        <ion-label position="floating" mode="ios">Nombre <ion-text color="danger">*</ion-text></ion-label>
+        <ion-input required type="text"></ion-input>
+      </ion-item>
+      
+      <ion-item class="listaResultadosBusqueda" color="light">
+          <ion-label position="floating" mode="ios">Apellido Paterno <ion-text color="danger">*</ion-text></ion-label>
+          <ion-input required type="text"></ion-input>
+      </ion-item>
+      
+      <ion-item class="listaResultadosBusqueda" color="light">
+          <ion-label position="floating" mode="ios">Email <ion-text color="danger">*</ion-text></ion-label>
+          <ion-input required type="email"></ion-input>
+      </ion-item>
+
+      <ion-item class="listaResultadosBusqueda" color="light">
+        <ion-label position="floating" mode="ios">Dirección del consultorio donde desea la visita médica<ion-text color="danger">*</ion-text></ion-label>
+        <ion-input required type="text"></ion-input>
+    </ion-item>
+    
+    <ion-item class="listaResultadosBusqueda" color="light">
+        <ion-label position="floating" mode="ios">Número telefónico de contacto <ion-text color="danger">*</ion-text></ion-label>
+        <ion-input required type="tel"></ion-input>
+    </ion-item>
+    
+    <ion-item class="listaResultadosBusqueda" color="light">
+        <ion-label position="floating" mode="ios">Extensión (opcional)</ion-label>
+        <ion-input required type="tel"></ion-input>
+    </ion-item>
+
+      
+
+      <p class="nota-formulario">Días y horarios de visita del representante médico:</p>
+
+      <ion-item class="listaResultadosBusqueda" color="light">
+        <ion-label class="labelFormSelect">Días</ion-label>
+        <ion-select cancelText="Cancelar" okText="Aceptar" mode="md">
+          <ion-select-option value="Domingo">Domingo</ion-select-option>
+          <ion-select-option value="Lunes">Lunes</ion-select-option>
+          <ion-select-option value="Martes">Martes</ion-select-option>
+          <ion-select-option value="Miercoles">Miercoles</ion-select-option>
+          <ion-select-option value="Jueves">Jueves</ion-select-option>
+          <ion-select-option value="Viernes">Viernes</ion-select-option>
+          <ion-select-option value="Sábado">Sábado</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <p class="nota-formulario">Horario:</p>
+      
+      <ion-item class="listaResultadosBusqueda" color="light">
+        <ion-label class="labelFormSelect">Desde</ion-label>
+        <ion-select cancelText="Cancelar" okText="Aceptar" mode="md">
+          <ion-select-option value="7">07:00</ion-select-option>
+          <ion-select-option value="8">08:00</ion-select-option>
+          <ion-select-option value="9">09:00</ion-select-option>
+          <ion-select-option value="10">10:00</ion-select-option>
+          <ion-select-option value="11">11:00</ion-select-option>
+          <ion-select-option value="12">12:00</ion-select-option>
+          <ion-select-option value="13">13:00</ion-select-option>
+          <ion-select-option value="14">14:00</ion-select-option>
+          <ion-select-option value="15">15:00</ion-select-option>
+          <ion-select-option value="16">16:00</ion-select-option>
+          <ion-select-option value="17">17:00</ion-select-option>
+          <ion-select-option value="18">18:00</ion-select-option>
+        </ion-select>
+      </ion-item>
+      
+      <ion-item class="listaResultadosBusqueda" color="light">
+        <ion-label class="labelFormSelect">Hasta</ion-label>
+        <ion-select cancelText="Cancelar" okText="Aceptar" mode="md">
+          <ion-select-option value="7">07:00</ion-select-option>
+          <ion-select-option value="8">08:00</ion-select-option>
+          <ion-select-option value="9">09:00</ion-select-option>
+          <ion-select-option value="10">10:00</ion-select-option>
+          <ion-select-option value="11">11:00</ion-select-option>
+          <ion-select-option value="12">12:00</ion-select-option>
+          <ion-select-option value="13">13:00</ion-select-option>
+          <ion-select-option value="14">14:00</ion-select-option>
+          <ion-select-option value="15">15:00</ion-select-option>
+          <ion-select-option value="16">16:00</ion-select-option>
+          <ion-select-option value="17">17:00</ion-select-option>
+          <ion-select-option value="18">18:00</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item class="listaResultadosBusqueda" color="light">
+        <ion-label class="labelFormSelect">Productos de interés (patrocinadores)</ion-label>
+        <ion-select  multiple="true" cancelText="Cancelar" okText="Aceptar" mode="ios">
+          <ion-select-option value="Producto-1">Producto-1</ion-select-option>
+          <ion-select-option value="Producto-2">Producto-2</ion-select-option>
+          <ion-select-option value="Producto-3">Producto-3</ion-select-option>
+          <ion-select-option value="Producto-4">Producto-4</ion-select-option>
+          <ion-select-option value="Producto-5">Producto-5</ion-select-option>
+          <ion-select-option value="Producto-6">Producto-6</ion-select-option>
+          <ion-select-option value="Producto-7">Producto-7</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item class="listaResultadosBusqueda" color="light" lines="none">
+          <ion-button class="btnFormulario" color="secondary" size="small" mode="ios">Enviar</ion-button>
+      </ion-item>
+    </ion-list>
 
 </ion-content>

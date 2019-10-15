@@ -1,24 +1,24 @@
 import { Component, OnInit } from '@angular/core';
 import { PopoverController } from '@ionic/angular';
-import { PopmenuComponent } from '../popmenu/popmenu.component';
+import { PopmenuComponent } from 'src/app/componentes/popmenu/popmenu.component';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss'],
+  selector: 'app-popover',
+  templateUrl: './popover.page.html',
+  styleUrls: ['./popover.page.scss'],
 })
-export class HeaderComponent implements OnInit {
+export class PopoverPage implements OnInit {
 
   constructor( private popoverCtrl: PopoverController) { }
 
-  ngOnInit() {}
-  
+  ngOnInit() {
+  }
+
   async mostrarPop() {
     const popover = await this.popoverCtrl.create({
       component: PopmenuComponent,
       event: event,
-      mode: 'ios',
-      cssClass: "popover_class"
+      mode: 'ios'
     });
 
     await popover.present();

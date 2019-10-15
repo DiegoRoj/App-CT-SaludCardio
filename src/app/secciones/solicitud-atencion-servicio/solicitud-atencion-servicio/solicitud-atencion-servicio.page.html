@@ -1,9 +1,19 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>solicitud-atencion-servicio</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header></app-header>
+<app-navigation-header titulo="Solicitud de atencion y servicio"></app-navigation-header>
 
 <ion-content>
+    <div class="container">
 
+        <div class="row justify-content-center ion-text-center">
+            <div class="col-auto" routerLink="/solicitud-visita">
+                <img class="iconosVarios" src="./assets/images/iconoSolicitudVisita.svg">
+                <p class="nombreSeccion">Solicitud de visita médica</p>
+            </div>
+            <div class="col-auto" routerLink="/ecommerce">
+                <img class="iconosVarios" src="./assets/images/iconoEcommerce.svg">
+                <p class="nombreSeccion">Ecommerce</p>
+            </div>
+            
+        </div>
+    </div>
 </ion-content>

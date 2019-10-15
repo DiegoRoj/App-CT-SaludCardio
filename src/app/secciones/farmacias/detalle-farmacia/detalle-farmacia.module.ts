@@ -5,14 +5,14 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { VideosPage } from './videos.page';
+import { DetalleFarmaciaPage } from './detalle-farmacia.page';
 import { ComponentesModule } from 'src/app/componentes/componentes.module';
 import { PopmenuComponent } from 'src/app/componentes/popmenu/popmenu.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: VideosPage
+    component: DetalleFarmaciaPage
   }
 ];
 
@@ -27,6 +27,6 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     ComponentesModule
   ],
-  declarations: [VideosPage]
+  declarations: [DetalleFarmaciaPage]
 })
-export class VideosPageModule {}
+export class DetalleFarmaciaPageModule {}

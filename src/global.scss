@@ -65,6 +65,34 @@ em{
     padding-inline-start: 1rem;
 }
 
+.titulo-azul{
+    color: #002891;
+    text-align: center;
+}
+
+.btnFormulario{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+}
+
+p.nota{
+    font-size: 1rem;
+    color: #5b5b5b;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+ion-item ion-label{
+    white-space: normal;
+}
+
+.popover_class .popover-wrapper.sc-ion-popover-ios .popover-content.sc-ion-popover-ios{
+    width: 300px !important;
+}
+
+
 
 // Cambio a clases Libreria Boostrap
 .bg-primary {
@@ -112,4 +140,25 @@ p.formaFarma{
     font-size: 1rem;
     color: #002891;
     text-align: center;
+}
+
+// STYLE GRID ICONOS SECCIONES
+.col-auto{
+    width: 150px;
+    height: 150px;
+    padding: 0 auto;
+    margin: 0.5rem;
+}
+
+img.iconosVarios{
+    max-height: 100px;
+    height: 100px;
+    margin: 5px;
+    width: auto;
+}
+
+p.nombreSeccion{
+    line-height: 15px;
+    margin-top: 5px;
+    color: #002891;
 }
